@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -Rf ./pdfmake",
+    "build:rn": "node buildForRN.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concat-files": "^0.1.1",
+    "cp": "^0.2.0",
+    "rimraf": "^2.6.0"
+  }
 }
